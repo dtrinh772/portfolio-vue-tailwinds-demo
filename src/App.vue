@@ -1,21 +1,22 @@
 <template>
   <div id="app">
-    <Header />
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <MainPage msg="Welcome to Your Vue.js App" />
+    <!-- <Header /> -->
+    <MainPage />
     <Footer />
   </div>
 </template>
 
 <script>
 import MainPage from './components/MainPage.vue'
-import Header from './components/Header.vue'
+// import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     MainPage,
-    Header,
+    // Header,
+    Footer,
   },
 }
 </script>
@@ -27,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
